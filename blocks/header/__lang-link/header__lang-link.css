@@ -4,6 +4,10 @@
   line-height: 1.2;
   text-decoration: none;
   color: #fff;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
