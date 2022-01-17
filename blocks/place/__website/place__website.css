@@ -1,0 +1,26 @@
+.place__website {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-row-align: end;
+  align-self: end;
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .place__website {
+    margin: 0 24px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    margin: 0 16px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+}

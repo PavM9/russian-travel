@@ -1,0 +1,18 @@
+.place__text-paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.place__text-paragraph:not(:first-of-type) {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__text-paragraph {
+    font-size: 16px;
+  }
+  .place__text-paragraph:not(:first-of-type) {
+    margin-top: 25px;
+  }
+}
