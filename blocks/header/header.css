@@ -2,24 +2,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
-  margin: 0 48px;
-  padding-top: 28px;
+  margin: 0 auto;
+  padding: 28px 48px 0;
+  max-width: 1280px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .header {
-    margin: 0 24px;
+    padding: 28px 24px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    margin: 0 16px;
-    padding-top: 16px;
+    padding: 16px 24px 0;
   }
 }
