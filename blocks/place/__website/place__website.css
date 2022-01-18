@@ -9,7 +9,7 @@
   justify-self: start;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .place__website {
     margin: 0 24px;
     -ms-flex-item-align: start;
