@@ -1,35 +1,35 @@
 .place {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 40px auto;
-  grid-template-columns: repeat(2, auto);
-  row-gap: 48px;
-  -webkit-column-gap: 40px;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
+  -ms-grid-columns: fit-content(460px) 40px minmax(305px, 1fr);
+  grid-template-columns: fit-content(460px) minmax(305px, 1fr);
+  gap: 48px 40px;
   margin-bottom: 80px;
 }
 .place:last-of-type {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place {
+    -ms-grid-columns: fit-content(440px) 32px minmax(305px, 1fr);
+    grid-template-columns: fit-content(440px) minmax(305px, 1fr);
     -webkit-column-gap: 32px;
     -moz-column-gap: 32px;
     column-gap: 32px;
   }
 }
 
-@media screen and (min-width: 690px) and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place {
+    -ms-grid-columns: fit-content(340px) 28px minmax(305px, 1fr);
+    grid-template-columns: fit-content(340px) minmax(305px, 1fr);
     -webkit-column-gap: 28px;
     -moz-column-gap: 28px;
     column-gap: 28px;
     margin-bottom: 73px;
   }
 }
-
 @media screen and (max-width: 690px) {
   .place {
     display: -webkit-box;
