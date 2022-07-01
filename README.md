@@ -8,21 +8,21 @@
 Адаптивный интерфейс для корректного отображения содержимого на разных устрйоствах.
 
 ## Стек технологий
-* HTML5:
-  -Семантические теги;
-* CSS3:
-  -Flexbox;
-  -Grid Layout;
-  -Позиционирование;
-  -Псевдоклассы;
-  -Трансформации;
-  -Медиа-запросы;
+* HTML5:<br>
+  -Семантические теги
+* CSS3:<br>
+  -Flexbox<br>
+  -Grid Layout<br>
+  -Позиционирование<br>
+  -Псевдоклассы<br>
+  -Трансформации<br>
+  -Медиа-запросы<br>
 * Вёрстка по макету в Figma
 * БЭМ-методолгия именования классов и организации файловой структуры
 
 ## Требования к проектной работе
 * [Макет](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile)
-* [Чеклист 3](https://code.s3.yandex.net/web-developer/checklists/new-program/checklist-3/index.html)
+* [Чеклист](https://code.s3.yandex.net/web-developer/checklists/new-program/checklist-3/index.html)
 
 ## Ссылка на страницу
 [Путешествие по России](https://pavm9.github.io/russian-travel/index.html)
