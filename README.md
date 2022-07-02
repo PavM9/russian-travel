@@ -1,4 +1,4 @@
-# Путешествие по России
+# Путешествия по России
 
 ## Описание проекта
 Учебный проект от [Яндекс.Практикум](https://practicum.yandex.ru/web/) о путешествии по России.
@@ -25,4 +25,4 @@
 * [Чеклист](https://code.s3.yandex.net/web-developer/checklists/new-program/checklist-3/index.html)
 
 ## Ссылка на страницу
-[Путешествие по России](https://pavm9.github.io/russian-travel/index.html)
+[Путешествия по России](https://pavm9.github.io/russian-travel/index.html)
